@@ -62,7 +62,7 @@ main {
   width: 100%;
 }
 
-/* section */
+/* section hero */
 #hero {
   margin-top: 65px;
   padding: 70px 0;
@@ -141,4 +141,23 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+}
+
+/* section info */
+
+#info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+  background-color: #5b9bf0;
+  border-radius: 10px;
 }
