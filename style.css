@@ -161,3 +161,77 @@ main {
   background-color: #5b9bf0;
   border-radius: 10px;
 }
+
+#info-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.info-cards-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.info-card {
+  width: 300px;
+  height: 290px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #5b9bf0;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.info-card img {
+  width: 50px;
+}
+
+.info-card h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.info-card p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+#contact h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background: #5b9bf0;
+}
+
+.footer-container ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container img {
+  width: 400px;
+  height: 400px;
+}
